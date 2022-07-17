@@ -1,0 +1,59 @@
+@font-face {
+    font-family: MuseoSans;
+    src: url("../MuseoSans_500.otf");
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    height: 100vh;    
+    margin: 0;
+}
+
+#info {
+    flex-direction: column;
+    background-color: rgb(176, 20, 77);
+    width: 40%;
+    color: white;
+}
+.info-line.first {
+}
+.info-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nom { 
+    font-family: "oswald",sans-serif;
+    line-height: 60px; /*l'espace entre les lignes)*/
+    text-transform:uppercase;
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+} /*le niveau ici est une classe et non pas un id, il faut donc mettre un point au lieu d'un #)*/
+
+.niveau {
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    font-family: "MuseoSans";
+}
+
+.avatar {
+    width: 50%;
+}
+
+.coordonnees {
+    margin: 2%;
+}
+.avatar > img {
+    width: 80%;
+    margin: 10%;
+
+}
+.main-column {
+    display: flex;
+    height: 100%;
+    
+     /* la marge interieure d'un élément alors que margin c'est la marge ext*/
+}
